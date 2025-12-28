@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog do Violino - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+  try {
+    if (localStorage.getItem('dark-mode') === 'on') {
+      document.documentElement.classList.add('dark');
+    }
+  } catch (e) {}
+</script>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1>🎻 Blog do Violino</h1>
+      <button id="dark-mode-toggle" onclick="toggleDarkMode()">🌓</button>
+    </div>
+    <nav>
+      <a href="index.html"><button>Home</button></a>
+      <a href="noticias.html"><button>Notícias</button></a>
+      <a href="postagens.html"><button>Postagens</button></a>
+      <a href="sobre.html"><button>Sobre Mim</button></a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2> A História do Violino</h2>
+    <div class="section-content">
+      <div class="text-block">
+        <p>O violino é um dos mais agudos instrumentos musicais. Seu timbre brilhante e inconfundível o torna parte fundamental de qualquer orquestra. Talvez seja por esses motivos que muitos o chamem de o “rei dos instrumentos”.</p>
+        <p>O violino é um instrumento de cordas friccionadas que surgiu na Itália no século XVI. Ele evoluiu a partir de instrumentos como a vielle e a lira da braccio. Com o tempo, tornou-se fundamental nas orquestras, na música de câmara e como instrumento solo.</p>
+        <p>O violino é conhecido por sua ampla gama expressiva, capaz de transmitir desde suavidade delicada até grande intensidade emocional. Fabricantes como Antonio Stradivari e Giuseppe Guarneri são célebres até hoje.</p>
+      </div>
+      <div class="image-block">
+        <img src="Historia.webp" alt="Imagem de um violino clássico">
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Niccolò Paganini: o gênio das cordas</h2>
+    <div class="section-content">
+      <div class="text-block">
+        <p>O violinista lendário que transformou técnica em espetáculo. Niccolò Paganini foi um compositor e brilhante violonista italiano, considerado o maior virtuose do século XIX foi um dos criadores da estética musical romântica.</p>
+        <p>Niccolò Paganini nasceu em Gênova, Itália, no dia 27 de outubro de 1782. Sua técnica extraordinária e aparência enigmática contribuíram para a fama de que teria feito um pacto com o diabo para alcançar tal habilidade.</p>
+        <p>Entre suas obras mais conhecidas estão os 24 Caprichos para Violino Solo, especialmente o Capricho nº 24, que influenciou compositores como Liszt, Rachmaninoff e Brahms.</p>
+      </div>
+      <div class="image-block">
+        <img src="Paganini.jpeg" alt="Retrato de Niccolò Paganini">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Blog do Violino - Gabriel Ventriz 🎻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

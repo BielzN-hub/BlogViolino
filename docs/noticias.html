@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog do Violino - Notícias</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+  try {
+    if (localStorage.getItem('dark-mode') === 'on') {
+      document.documentElement.classList.add('dark');
+    }
+  } catch (e) {}
+</script>
+</head>
+<body>
+  <header>
+  <div class="header-top">
+    <h1>🎻 Blog do Violino</h1>
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">🌓</button>
+  </div>
+  <nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="noticias.html"><button>Notícias</button></a>
+    <a href="postagens.html"><button>Postagens</button></a>
+    <a href="sobre.html"><button>Sobre Mim</button></a>
+  </nav>
+</header>
+  <section class="container">
+    <h2>Notícias</h2>
+    <article>
+      <h4>🎶 Especialistas Radiografam Violino para Revelar Segredos de Paganini.</h4>
+      <p>Especialistas franceses realizaram uma análise com raios-X no violino "Il Cannone", criado em 1743 por Guarneri del Gesù e usado por Niccolò Paganini. O objetivo é entender melhor sua estrutura e o segredo de seu som excepcional.</p>
+    </article>
+    <article>
+      <h4>🎼 Violinista brasileiro de 17 anos vence concurso em Viena.</h4>
+      <p>O jovem violinista Guido Sant'Anna, de Parelheiros, São Paulo, venceu a décima edição da competição internacional Fritz Kreisler em Viena, destacando-se entre os mais novos na prestigiada sala do Musikverein.</p>
+    </article>
+    <article>
+      <h4>🎻 Descoberto manuscrito raro de Paganini em uma biblioteca de Gênova.</h4>
+      <p>Em fevereiro de 2023, foi descoberto um manuscrito raro de Niccolò Paganini na Biblioteca Casanatense de Roma, que foi posteriormente exibido em Gênova. Este manuscrito é uma das 95 composições adquiridas pelo Estado italiano em 1972, e sua apresentação ocorreu no 50º aniversário dessa aquisição. A exibição foi organizada pelos "Amici di Paganini" de Gênova, em colaboração com a Biblioteca Casanatense e o Comune di Genova, e aconteceu nas salas paganiniane dos Museus de Strada Nuova, no Palazzo Tursi. Durante o evento, foram apresentados seis autógrafos originais de Paganini, incluindo peças da sua produção camerística anterior à sua turnê de 1828, com exceção da "Sonata Napoléon" para violino e orquestra (M.S. 5). Esses manuscritos foram digitalizados e agora estão disponíveis na biblioteca digital do Centro Paganini para pesquisa e estudo.</p>
+      </article>
+      <article>
+      <h4>📀 Projeto na Itália Leiloa Cópia do Violino de Paganini para Doação.</h4>
+      <p>O projeto "Il Cannone Giramondo" leiloou uma cópia do violino de Paganini, feita pelo luthier Luiz Amorim. O valor arrecadado foi doado ao Instituto Baccarelli, que apoia a educação musical na comunidade de Heliópolis, em São Paulo.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>© 2025 Blog do Violino - Gabriel Ventriz 🎻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

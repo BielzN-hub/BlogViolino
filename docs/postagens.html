@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog do Violino - Postagens</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+  try {
+    if (localStorage.getItem('dark-mode') === 'on') {
+      document.documentElement.classList.add('dark');
+    }
+  } catch (e) {}
+</script>
+</head>
+<body>
+  <header>
+  <div class="header-top">
+    <h1>🎻 Blog do Violino</h1>
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">🌓</button>
+  </div>
+  <nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="noticias.html"><button>Notícias</button></a>
+    <a href="postagens.html"><button>Postagens</button></a>
+    <a href="sobre.html"><button>Sobre Mim</button></a>
+  </nav>
+</header>
+  <section class="container">
+    <h2>Postagens</h2>
+    <article>
+      <h3>Como escolher seu primeiro violino</h3>
+      <p>Para escolher o seu primeiro violino, é fundamental definir um orçamento e priorizar a qualidade. Procure por um violino de tamanho adequado para você, que possa ser facilmente tocado e que tenha um som de boa qualidade.</p>
+    </article>
+    <article>
+      <h3>Top 5 peças para impressionar no violino</h3>
+      <p>Para impressionar no violino, peças como o Concerto para Violino de Mozart, Beethoven, Tchaikovsky, Brahms e a "Vocalise" de Rachmaninov são excelentes opções. Estas peças são reconhecidas pela sua beleza melódica, complexidade técnica e impacto emocional. </p>
+    </article>
+    <article>
+      <h3>Como melhorar sua afinação com drones e apps</h3>
+      <p>Para melhorar a afinação do violino usando drones e apps, utilize um afinador eletrônico ou um aplicativo de celular que forneça a frequência correta de cada corda. Ajuste as cravelhas com precisão, verificando a frequência e comparando com a nota do afinador ou aplicativo. Além disso, treine o ouvido e a memória muscular, afinando as cordas soltas e em escalas.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>© 2025 Blog do Violino - Gabriel Ventriz 🎻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
